@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/DD</item>
+
+    </style>
+
+    <style name="Dialoger" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#ff88ff</item>
+    </style>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="DD" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+
+
+    <style name="Mytheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="Widget.MyApp.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="theme">@style/ThemeOverlay.MyApp.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+    </style>
+
+
+
+</resources>

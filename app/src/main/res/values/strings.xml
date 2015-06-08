@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Журнал дзвінків</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_rezult">Результат розмови</string>
+    <string name="cancel">Пропустити</string>
+    <string name="save">Зберегти</string>
+    <string name="type_call_in">Вхідний</string>
+    <string name="type_call_out">Вихідний</string>
+    <string name="type_call_missed">Пропущений</string>
+
+
+</resources>
