@@ -1,10 +1,9 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.Dialog">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="android:actionBarStyle">@style/DD</item>
-
     </style>
 
     <style name="Dialoger" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -14,7 +13,10 @@
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
     </style>
 
-    <style name="DD" parent="Theme.AppCompat.NoActionBar">
+    <style name="DD" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/transparent</item>
+        <item name="windowActionBar">false</item>
     </style>
 
 

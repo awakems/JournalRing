@@ -29,8 +29,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitleTextColor(R.color.title_text_color);
         toolbar.setTitle("");
+//        toolbar.setTitle(getResources().getString(R.string.app_name));
+//        toolbar.setTitleTextColor(android.R.color.white);
+//        toolbar.setTitleTextAppearance();
+//        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.backbtn));
+//        toolbar.setPadding(50, 0, 40, 10);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 

@@ -16,24 +16,21 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_gravity="center">
+        android:layout_gravity="center_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
-            android:id="@+id/tvTypeCall"
-            android:layout_gravity="right"
-            android:layout_marginLeft="100dp" />
+            android:id="@+id/tvTypeCall" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/tvDate"
-            android:layout_weight="1"
             android:layout_marginLeft="10dp" />
 
     </LinearLayout>
@@ -69,9 +66,10 @@
             android:id="@+id/btCancel"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:background="#73aad9"
+            android:background="@drawable/rounded_corner"
             android:layout_marginRight="2dp"
-            android:layout_marginBottom="20dp" />
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white" />
 
         <Button
             android:layout_width="match_parent"
@@ -80,9 +78,10 @@
             android:id="@+id/btSave"
             android:layout_weight="1"
             android:layout_marginRight="20dp"
-            android:background="#73aad9"
+            android:background="@drawable/rounded_corner"
             android:layout_marginLeft="2dp"
-            android:layout_marginBottom="20dp" />
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white" />
     </LinearLayout>
 
 </LinearLayout>
